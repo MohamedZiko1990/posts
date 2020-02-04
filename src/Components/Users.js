@@ -7,8 +7,16 @@ const Users = props => {
     usersData = props.data.map(data => {
       return (
         <tr>
-          <td className="text-center">{data.userId}</td>
-          <td className="text-center">{data.id}</td>
+          <td className="text-center">
+            <a href="/" onClick={e => props.onClickUser(e, data.userId)}>
+              {data.userId}
+            </a>
+          </td>
+          <td className="text-center">
+            <a href="/" onClick={e => props.onClickPost(e, data.id)}>
+              {data.id}
+            </a>
+          </td>
           <td>{data.title}</td>
           <td>{data.body}</td>
         </tr>
@@ -22,16 +30,16 @@ const Users = props => {
         <thead>
           <tr>
             <th scope="col" className="text-center">
-              user id
+              UserId
             </th>
             <th scope="col" className="text-center">
-              Post id
+              PostId
             </th>
             <th scope="col" className="text-center">
-              title
+              Title
             </th>
             <th scope="col" className="text-center">
-              body
+              Body
             </th>
           </tr>
         </thead>
