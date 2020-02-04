@@ -1,0 +1,11 @@
+.span {
+  height: 420px !important;
+
+  overflow: scroll;
+}
+
+.span thead th {
+  position: sticky;
+  background-color: #0275d8;
+  top: 0;
+}

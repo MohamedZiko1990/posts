@@ -31,7 +31,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
+        <h3>Posts Table:</h3>
         <Users
           data={this.state.usersData}
           onClickUser={this.onClickUserId}
