@@ -17,6 +17,10 @@ class App extends React.Component {
     );
   };
 
+  //   componentDidUpdate = () => {
+  //     console.log(this.state.usersData);
+  //   };
+
   onClickUserId = () => {
     console.log("clicked user id");
   };
