@@ -16,10 +16,10 @@ When `postId` is clicked a new table will be created and shows all commentss/ se
 
 #### Steps
 
--Load the page using `npm start` in the cmd in the location of the project (you can do that from the search bar OR from directory navigation bar)
--when the page load, you will see a `Posts` table with `Userid` and `Postid` being anchor taged.
--when `userid` is clicked, a new table will show up presenting all posts saved for this user in the database.
--when `postid` is clicked, a new table will show up presenting all comments saved for this post in the database.
+- Load the page using `npm start` in the cmd in the location of the project (you can do that from the search bar OR from directory navigation bar)
+- when the page load, you will see a `Posts` table with `Userid` and `Postid` being anchor taged.
+- when `userid` is clicked, a new table will show up presenting all posts saved for this user in the database.
+- when `postid` is clicked, a new table will show up presenting all comments saved for this post in the database.
 
 #### Frame Works/ libraries/ tools
 
