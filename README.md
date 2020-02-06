@@ -49,7 +49,7 @@ shows all comments/ selected post.
 
 ---
 
-#### Clash API
+#### API
 
 - Base url `https://jsonplaceholder.typicode.com`
 - Posts endpoint `/posts`
