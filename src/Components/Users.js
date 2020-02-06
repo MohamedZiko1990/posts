@@ -1,5 +1,5 @@
 import React from "react";
-import "./Users.css";
+import "./Common.css";
 
 const Users = props => {
   var usersData = "";

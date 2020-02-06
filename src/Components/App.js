@@ -3,6 +3,7 @@ import Users from "./Users";
 import Posts from "./Posts";
 import Comments from "./Comments";
 import axios from "axios";
+import "./App.css";
 
 class App extends React.Component {
   state = {
@@ -57,7 +58,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
+        <div className="row pt-2">
           <h3>Posts Table:</h3>
           <Users
             data={this.state.usersData}

@@ -1,0 +1,11 @@
+html,
+body,
+th {
+  background-color: #292b2c;
+  color: white;
+}
+
+tbody {
+  vertical-align: middle;
+  background-color: white;
+}
